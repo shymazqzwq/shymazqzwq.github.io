@@ -1,0 +1,179 @@
+<html>
+<head>
+<!--روابط الاستدعاء-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!--css-->
+<link rel="stylesheet" type="text/css" href="aa.css">
+<meta charset="UTF-8">
+ <script>
+	function search ()
+            {
+              var a=document.getElementById("text1").value;
+               var b=document.getElementById("text2").value;
+               window.alert("the prise from    "+b+"to   "+a+"  is  "+"897$");
+               
+            }
+ </script>
+</head>
+
+<body>
+<!--navbar-->
+<div class=" navbar navbar-default navbar-fixed-top" id="ee" >
+    <div class="navbar-collapse  collapse">
+      <ul  class="nav navbar-nav">
+	  <ul class="nav navbar-nav  navbar-right">
+		<li> <a href="http://www.facebook.com" target="_blank">  <img src="fb.png"> face book</a></li>
+	   <li><a href="http://www.twitter.com" target="_blank"> <img src="tw.png">twitter </a></li>
+	   <li><a href="http://www.google.com" target="_blank"> <img src="y.jpg">google</a></li>
+	   <li> <a href="pag5.html" target="_blank"> مسار الرحلة</a></li>	
+       <li ><a href="pag4.html" target="_blank">إدارة الحجز</a> </li>
+       <li  class="active"><a   href="pag2.html">الأسعار المختارة</a></li>
+	   <li class="dropdown"> 
+		 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >حجز الرحلات <span class="caret"> </span></a>
+		  <ul class="dropdown-menu" >
+		  <li><a href="pag3.html" target="_blank" >اتجاه واحد</a></li>
+          <li><a href="pag6.html" > مدن متعددة</a></li>
+		  </ul>
+	   </li>
+	   <li ><a href="our project.html" target="_blank">الصفحة الرئيسية</a></li>
+	   <li><a class="navbar-brand"  href="#"> الموقع الرسمي  </a></li>   		
+	  </ul>  
+    </div>
+ </div>
+ <br>
+	 <!--اسم الشركة-->
+
+<div class="jumbotron text-right" id="name" >
+  <h1>أسعار مختارة:</h1>
+</div>
+  <p id="b"> نسعى لتلبية متطلبات جميع الزوار هنا ...راحتكم غايتنا :)  </p><br/>
+<form class="travl">
+<div class="container">
+  <div class="jumbotron" id="lll" >
+	<div class="col-md-4">
+	<button type="button" class="btn" id="btn" onclick="search()">بحث</button>
+	</div>
+	
+	<div class="col-md-4">
+	<p><b>إلى</b> </p> 
+	<input type="text" id="text1" class="form-control" placeholder="Search for...">
+  </div>
+	
+	<div class="col-md-4">
+	<p><b>من</b> </p> 
+	<input type="text" id="text2" class="form-control" placeholder="Search for...">
+	</div>
+  </div>
+</div>
+	</form>
+<div class="alert alert-success">
+  <strong>أسعارناا الأفضل: </strong>تعرف على أفضل الأسعار عبر شبكتنا في جميع أنحاء العالم.
+</div>
+
+
+<div class="col-md-12">
+	<div class="bs-example">
+    <table class="table" id="p">
+        <thead>
+            <tr>
+                <th>الرقم</th>
+                <th>من</th>
+                <th>إلى </th>
+                <th>السعر</th>
+            </tr>
+        </thead>
+        <tbody>
+        	<tr class="active">
+                <td>1</td>
+                <td>كويت</td>
+                <td>الجزائر</td>
+                <td>343$</td>
+            </tr>
+            <tr class="success">
+                <td>2</td>
+                <td>قطر</td>
+                <td>مصر</td>
+                <td>4367$</td>
+            </tr>
+            <tr class="info">
+                <td>3</td>
+                <td>أبو ظبي</td>
+                <td>رياض</td>
+                <td>235$</td>
+            </tr>
+            <tr class="warning">
+                <td>4</td>
+                <td>بيروت</td>
+                <td>ماليزيا</td>
+                <td>247$</td>
+            </tr>
+            <tr class="danger">
+                <td>5</td>
+                <td>تبوك</td>
+                <td>اسطنبول</td>
+                <td>889$</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+
+<div class="col-md-12">
+	<div class="bs-example">
+    <table class="table" id="p">
+        <thead>
+            <tr>
+                <th>الرقم</th>
+                <th>من</th>
+                <th>إلى</th>
+                <th>السعر</th>
+            </tr>
+        </thead>
+        <tbody>
+        	<tr class="active">
+                <td>1</td>
+                <td>لندن</td>
+                <td>تركيا</td>
+                <td>3456$</td>
+            </tr>
+            <tr class="success">
+                <td>2</td>
+                <td>الطائف</td>
+                <td>الرياض</td>
+                <td>899$</td>
+            </tr>
+            <tr class="info">
+                <td>3</td>
+                <td>تونس</td>
+                <td>جدة</td>
+                <td>747$</td>
+            </tr>
+            <tr class="warning">
+                <td>4</td>
+                <td>الدوحة</td>
+                <td>دبي</td>
+                <td>567$</td>
+            </tr>
+            <tr class="danger">
+                <td>5</td>
+                <td>القاهرة</td>
+                <td>الرياض</td>
+                <td>346$</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+
+
+
+</body>
+</html>

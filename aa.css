@@ -1,0 +1,106 @@
+#c
+{
+    font-size: x-large ;
+    
+}
+#a{
+    text-align: center;
+}
+
+#w{
+    text-align: center;
+}
+
+*{
+    direction: rtl;
+}
+#u{
+    font-size:xx-large;
+    color: rgb(255,0,127);
+}
+#r{
+ width: 400px;
+ height: 300px;
+}
+
+.o{
+    font-family: fantasy;
+    font-size: x-large;
+    color: rgb(32,160,17)
+}
+.travl{
+    font-size: xx-large;
+    color: rgb(183,11,223);
+    
+}
+.m{
+    font-size: large;
+}
+.l{
+    text-align: right;
+    font-size: medium;
+    color: green;
+    font-style: italic; 
+}
+.nn{
+    font-size: xx-large;
+    color: rgb(255,0,127);
+    
+}
+#btn{
+    width: 250px;
+    height: 80px;
+    color:green;
+    font-size: xx-large;
+    border: groove;
+}
+#lll{
+    padding-bottom: 140;
+    
+}
+#name{
+    font-style: italic;
+    font-family: inherit;
+    text-align: center;
+     color: rgb(252,80,138);
+    background: url(777.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+}
+#ee{
+     font-size: 17px;
+    font-style: italic;
+    font-family: inherit;
+    padding: 10px;
+}
+#p{
+    border: double;
+}
+#form{
+    margin: 10px;
+}
+#a{
+    color: #FF00AA;
+   font-size: 70px;
+   font-family:inherit;
+   text-align: center;
+ }
+ #b{
+  color:#61AE60;
+  text-decoration: underline;
+  font-size: 50px;
+  text-align: center;
+}
+.form{
+    font-size: x-large;
+}
+ 
+#rr{
+    padding-right: 400px;
+}
+#dropdownMenu1{
+    padding-left: 500px;
+}
